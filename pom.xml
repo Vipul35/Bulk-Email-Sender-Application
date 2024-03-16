@@ -8,8 +8,8 @@
 		<version>2.7.16</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>SpringBootSendingEmailDemo</artifactId>
+	<groupId>com.email.sender.application</groupId>
+	<artifactId>EmailSenderApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootSendingEmailDemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -74,11 +74,23 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.email.sender.application</groupId>-->
+<!--			<artifactId>EmailSenderApplication</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
+
 		<dependency>
-			<groupId>com.datafrom.excel</groupId>
-			<artifactId>ExtractingDataFromExcel</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.12</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.12</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
